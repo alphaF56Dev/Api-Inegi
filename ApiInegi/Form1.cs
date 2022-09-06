@@ -15,6 +15,7 @@ namespace ApiInegi
         public Form1()
         {
             InitializeComponent();
+            new InegiApi().ConsultaMicro();
         }
     }
 }
